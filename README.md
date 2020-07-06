@@ -2,7 +2,7 @@
 
 This spell checker takes in two text files, a dictionary and a file to be spell-checked. It will find incorrect words and make suggestions on how to fix them by adding/removing a letter or by swapping two letters. The spell checker is implemented using a vector, set, and unordered set. The runtimes for all of them are printed to the terminal, showing how the set and unordered set are much more efficient than the vector.
 
-Run with:
+Compile and run with:
 g++ spellcheck.cpp -std=c++11
 ./a.out
 
